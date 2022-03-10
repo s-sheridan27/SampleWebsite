@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premier League Football">
+  <meta name="keywords" content="Premier, Premier League, Football, EPL">
+  <link rel="stylesheet" href="styles.css">
+  <title>PREMIER LEAGUE 2010-2019</title>
+</head>
+<body>
+  <header>
+    <!-- logo and hamburger menu -->
+    <nav id="hamburger-menu">
+      <a href="index.html">
+        <h1 id="logo">THE PREMIER LEAGUE 2010-2019</h1>
+      </a>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+        <span class='menu-button'></span>
+      </label>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="winners.html">Winners</a></li>
+        <li><a href="top-scorers.html">Top Scorers</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+      </ul>
+    </nav>
+	</header>
+  <main>
+     <!-- logo and hamburger menu -->
+    <!-- Hero image set to fixed position so the content flows over the top -->
+    <div id="hero-outer">
+      <div id="hero-img"></div>
+    </div>
+    <!-- Main content -->
+    <section aria-label="main-content" id="pics">
+      <!-- add alt text to all of these images -->
+      <img src="utd1.jpg"
+        alt="Rooney and Van Persie celebrating another goal.">
+      <img src="silva.jpg"
+        alt="The spanish wizard David Silva.">
+      <img src="virgil-van-dijk.jpg"
+        alt=" Liverpools most expensive signing Virgil Van Dijk">
+      <img src="drogba.jpg"
+        alt="Didier Drogba with another strike on goal.">
+      <img src="assets/images/eagle-nebula.jpg"
+        alt="The Eagle Nebula is a young open cluster of stars in the constellation Serpens">
+      <img src="assets/images/horsehead-nebula.jpg"
+        alt="The Horsehead Nebula is a small dark nebula in the constellation Orion">
+      <img src="assets/images/galaxy-ngc-1300.jpg"
+        alt="spiral galaxy located about 61 million light-years away in the constellation Eridanus">
+      <img src="assets/images/monkey-head.jpg"
+        alt="The Monkey Head Nebula is an emission nebula located in the constellation Orion, the Hunter. The nebula is an H II region, a large cloud of ionised gas in which new stars are being formed. ">
+      <img src="assets/images/saturn.jpg" alt="color image of the planet it Saturn with it's rings glowing brightly">
+      <img src="assets/images/monocerotis.jpg"
+        alt="Monocerotis is a spectroscopic binary star system in the constellation Monoceros about 19,000 light years from the Sun. ">
+      <img src="assets/images/star-cluster-p1610a.jpg"
+        alt="colorful image of a star cluster also known as the 7 sisters">
+      <img src="assets/images/westerlund2-star-cluster.jpg"
+        alt="Westerlund 2 is an obscured compact young star cluster in the Milky Way, with an estimated age of about one or two million years. It contains some of the hottest, brightest, and most massive stars known.">
+      <img src="assets/images/odyssey.jpg" alt="detailed image of the exoplanet odyssey">
+      <img src="assets/images/whirlpool-galaxy.jpg"
+        alt="The Whirlpool Galaxy, also known as Messier 51a, M51a, and NGC 5194, is an interacting grand-design spiral galaxy with a Seyfert 2 active galactic nucleus. ">
+      <img src="assets/images/veil-nebula.jpg"
+        alt="The Veil Nebula is a cloud of heated and ionized gas and dust in the constellation Cygnus.">
+      <img src="assets/images/sombrero.jpg"
+        alt="The Sombrero Galaxy is a spiral galaxy in the constellation borders of Virgo and Corvus, being about 9.55 megaparsecs from our galaxy, within the local supercluster">
+      <img src="assets/images/star-cluster-ngc-602.jpg"
+        alt="The cluster of blue stars, called NGC 602, formed when a large part of the gas cloud collapsed under gravity and became very dense. The fierce radiation now being produced by these hot, young stars is sculpting the inner rim of the gaseous nebula.">
+      <img src="assets/images/galaxy-ngc-6302.jpg"
+        alt="NGC 6302 lies within our Milky Way galaxy, roughly 3,800 light-years away in the constellation Scorpius. The glowing gas is the star's outer layers, expelled over about 2,200 years.">
+      <img src="assets/images/STSCI-H-p2016-slideshow-2400x1200.png" alt="giant clouds of colorful gas clouds">
+    </section>
+
+  </main>
+  <!-- Font awesome social media icons -->
+  <script src="https://kit.fontawesome.com/7beb4c51dd.js" crossorigin="anonymous"></script>
+  <!-- Footer with included social media links -->
+  <footer>
+    <!-- Back to top button, also doubles as a way for the user to know which page they are on -->
+    <a class="back-to-top" href="#">↑ Gallery ↑</a>
+    <ul class="social-media">
+      <li>
+        <a href="https://www.facebook.com/premierleague" target="_blank" rel="noopener"
+          aria-label="Visit our Facebook page (opens in new tab)">
+          <i class="fa-brands fa-facebook-square"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/premierleague" target="_blank" rel="noopener"
+          aria-label="Visit our Twitter page (opens in new tab)">
+          <i class="fa-brands fa-twitter-square"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCG5qGWdu8nIRZqJ_GgDwQ-w" target="_blank" rel="noopener"
+          aria-label="Visit our Youtube page (opens in new tab)">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/premierleague/" target="_blank" rel="noopener"
+          aria-label="Visit our Instagram page (opens in new tab)">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+    <p> This website is for educational purposes only.</p>
+  </footer>
+</body>
+
+</html>
